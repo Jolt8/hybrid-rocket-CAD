@@ -8,6 +8,7 @@ Extrude {0, -1.0, 0} {
   Surface{:}; Layers {1}; Recombine;
 }
 //+
+//Extrude { {0, 0, 1}, {0, 0, 0}, 5.0 * Pi / 180  } { Surface{:}; Layers{1}; Recombine; }
 
 
 
@@ -42,3 +43,4 @@ Physical Surface("fuel_gain_top_and_bottom_surface_patches", 240) = {19, 21};
 Physical Surface("out_of_plane_patches", 241) = {27, 1, 33, 2, 48, 3, 59, 8, 58, 7, 61, 9, 56, 6, 51, 4};
 //+
 Physical Surface("out_of_plane_patches", 241) += {53, 5};
+//+
